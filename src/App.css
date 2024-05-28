@@ -1,0 +1,11 @@
+div{
+  text-decoration: none;
+}
+
+div, input, textarea{
+  box-sizing: border-box;
+}
+
+div:hover{
+  text-decoration: none;
+}

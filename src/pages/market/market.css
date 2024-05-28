@@ -1,0 +1,105 @@
+.market-main{
+    margin: 30px auto;
+    width: 90vw;
+    height: 90vh;
+    /* border: 5px solid black; */
+}
+
+
+.market-title{
+    padding: 20px 10px;
+    font-size: 35px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.market-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 3px solid black;
+}
+
+.market-list button{
+    border: 0px;
+    background: none;
+    font-size: large;
+    cursor: pointer;
+}
+
+.productlist-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128,128,128, 0.5)
+}
+
+.modal-content{
+    position: absolute;
+    margin: 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+.modal-content h2{
+    padding: 0;
+}
+
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-content button{
+    border: 0px;
+    background: none;
+    font-size: large;
+    cursor: pointer;
+    padding: 0;
+}
+
+.productlist{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.productlist-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    border: 0.5px solid black;
+}
+
+.productlist h3{
+    margin: 0;
+}

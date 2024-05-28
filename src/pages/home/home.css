@@ -1,0 +1,56 @@
+.home li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;    
+    height: 80vh;
+    min-height: 90%;
+    text-align: center;
+}
+
+.home li{
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.board{
+    border: 3px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+.board a{
+    text-decoration: none;
+}
+
+.home p{
+    border-bottom: 1px solid black;
+}
+.home ul{
+    padding: 0;
+    justify-content: center;
+}
+
+.class{
+    border: 3px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+.class p{
+    border-bottom: 1px solid black;
+}
+
+.menu{
+    border: 3px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+.menu p{
+    border-bottom: 1px solid black;
+}

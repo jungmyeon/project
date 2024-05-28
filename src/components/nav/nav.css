@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.nav-link{
+    text-decoration: none;
+}
