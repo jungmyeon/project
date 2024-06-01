@@ -68,7 +68,7 @@ export default function Timer()
                 <ul>
                     {savedTimer.map((time,index)=>(
                         <li key={index}>
-                            <strong>{time.title}:</strong>{formatTimer(time.time)}</li>
+                            <strong>{time.title}: </strong>{formatTimer(time.time)}</li>
                     ))}
                 </ul>
             </div>
